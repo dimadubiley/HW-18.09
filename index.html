@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>ДЗ</h1>
+
+    <!-- 1 -->
+    <!-- <script>
+        let num1 = parseInt(prompt("Введите число:"));
+        if (num1 % 2 === 0) {
+            alert ("Число чётное");
+        } else {
+            alert ("Число нечётное");
+        }
+    </script> -->
+    <!-- 2 -->
+    <!-- <script>
+        let num1 = parseFloat(prompt("Введите первое число:"));
+        let num2 = parseFloat(prompt("Введите второе число:"));
+
+        if (num1 < num2)
+        {
+            alert ("Меньшее число:" + num1);
+        }
+        else if (num2 < num1)
+        {
+            alert ("Меньшее число:" + num2);
+        }
+        else
+        {
+            alert ("Они одинаковы");
+        }
+       
+
+    </script> -->
+
+    <!-- 3 -->
+    <!-- <script>
+        let num = parseInt(prompt("Введите число:"));
+        if (num > 0) {
+            alert("Число больше нуля");
+        } else if (num < 0) {
+            alert("Число мепньше нуля");
+        } else {
+            alert ("Это 0");
+        }
+
+    </script> -->
+
+    <!-- 4 -->
+    <!-- <script>
+        let num1 = parseInt(prompt("Введите первое число:"));
+        let num2 = parseInt(prompt("Введите второе число:"));
+        let num3 = parseInt(prompt("Введите третье число:"));
+
+        if (num1 < num2 < num3)
+        {
+            alert (num3 + " Самое большое число!")
+        }
+        else if (num1 < num3 < num2)
+        {
+            alert (num2 + " Самое большое число!")
+        }
+
+        else if (num3 < num1 < num2)
+        {
+            alert (num2 + " Самое большое число!")
+        }
+        else if (num3 < num2 < num1)
+        {
+            alert (num1 + " Самое большое число!")
+        }
+
+        else if (num2 < num3 < num1)
+        {
+            alert (num1 + " Самое большое число!")
+        }
+        else if (num2 < num1 < num3)
+        {
+            alert (num3 + " Самое большое число!")
+        }
+    </script> -->
+
+    <!-- 5 -->
+    <!-- <script>
+        let a = parseInt(prompt("Введите первое число:"));
+        let b = parseInt(prompt("Введите второе число:"));
+        let operation = prompt("Выберите операцию: 1) +  2) -  3) *  4) /");
+
+
+        if (operation == 1)
+        {
+            alert("Результат:", a + b);
+        }
+        else if (operation == 2)
+        {
+            alert("Результат:", a - b);
+        }
+        else if (operation == 3)
+        {
+            alert("Результат:", a * b);
+        }
+        else if (operation == 4)
+        {
+            if (b !== 0) {
+                    alert("Результат:" + a / b);
+                } else {
+                    alert("Деление на ноль невозможно!");
+                }
+        }
+        else
+        {
+            alert ("Не то число!")
+        }
+    </script> -->
+
+    <!-- 6 -->
+    <!-- <script>
+        let num = parseInt(prompt("Введите число:"));
+        if (num >= 1 && num <= 30) {
+            alert("Число в диапазоне");
+        } else {
+            alert("Число вне диапазона");
+        }
+    </script> -->
+
+    <!-- 7 -->
+    <!-- <script>
+        let x = parseInt(prompt("Введите число X:"));
+        let y = parseInt(prompt("Введите число Y:"));
+        if (x % y === 0) 
+        {
+            alert(x + "кратно" + y);
+        } 
+        else 
+        {
+            alert(x + "не кратно" + y);
+        }
+
+    </script> -->
+
+    <!-- 8 -->
+    <!-- <script>
+        let num = parseInt(prompt("Введите число:"));
+        if (num % 3 === 0) {
+            alert("Число кратно 3");
+        }
+        else if (num % 5 === 0)
+        {
+            alert("Число кратно 5");
+        }
+        else if (num % 7 === 0)
+        {
+            alert("Число кратно 7");
+        }
+        else 
+        {
+            alert("Число не кратно Не 3, 5, 7");
+        }
+
+    </script> -->
+
+    <!-- 9 -->
+    <!-- <script>
+        let num = parseFloat(prompt("Введите число:"));
+        if (num < 0) {
+            num = -num;
+        }
+        alert("Модуль числа: " + num);
+
+
+    </script> -->
+
+    <!-- 10 -->
+    <!-- <script>
+        let num = prompt("Введите число (не более 4 разрядов):");
+        let sum = 0;
+        let digCout = 0;
+        let i = 0;
+
+        while (num[i] !== undefined && digCout < 4) 
+        {
+            let digit = Number(num[i]);
+            if (!isNaN(digit)) 
+            {
+                sum += digit;
+                digCout++;
+            }
+            i++;
+        }
+
+        if (num[i] === undefined && digCout <= 4) 
+        {
+            alert("Количество цифр: " + digCout);
+            alert("Сумма цифр: " + sum);
+        } 
+        else 
+        {
+            alert("Число содержит более 4 цифр");
+        }
+    </script> -->
+
+    <!-- 11 -->
+    <!-- <script>
+        var a = parseInt (prompt("Введите рост: "));
+        var b = parseInt (prompt("Введите вес: ")); 
+        var best = a - 110;
+        if (best == b)
+        {
+            alert("Правильно");
+        }
+        else if (best < b)
+        {
+            var t = b - best;
+            alert("Вам надо збросить: " +t + " kg");
+        }
+        else
+        {
+            var t = best - b;
+            alert("Вам надо набрать: " + t + " kg");
+        }
+
+    </script> -->
+</body>
+
+</html>
